@@ -3,5 +3,14 @@ package com.olgazelenskaya.app;
 /**
  * Created by PC on 06.10.2016.
  */
-public class Appone {
-}
+    import java.util.Scanner;
+
+    public class Appone {
+
+        public static void main(String[] args) {
+
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println(scanner.nextLine());
+        }
+    }
