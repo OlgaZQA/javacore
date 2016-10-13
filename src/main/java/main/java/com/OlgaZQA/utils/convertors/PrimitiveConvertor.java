@@ -5,19 +5,19 @@ package main.java.com.OlgaZQA.utils.convertors;
  */
 public class PrimitiveConvertor {
 
-    public char floatToChar (float myfloat) {
-        char mychar = (char) myfloat;
-        System.out.println("Input float value is " + myfloat + ". Output char value is " + mychar);
-        return mychar;
+    public char floatToChar (float myFloat) {
+        char myChar = (char) myFloat;
+        System.out.println("Input float value is " + myFloat + ". Output char value is " + myChar);
+        return myChar;
     }
-    public char IntToChar (int myint) {
-        char mychar = (char) myint;
-        System.out.println ("Input int value is " + myint + ". Output char value is " + mychar);
-        return mychar;
+    public char IntToChar (int myInt) {
+        char myChar = (char) myInt;
+        System.out.println ("Input int value is " + myInt + ". Output char value is " + myChar);
+        return myChar;
     }
-    public int CharToInt (char mychar) {
-        int myint = (int) mychar;
-        System.out.println ("Input char value is " + mychar + ". Output char value is " + myint);
-        return myint;
+    public int CharToInt (char myChar) {
+        int myInt = (int) myChar;
+        System.out.println ("Input char value is " + myChar + ". Output char value is " + myInt);
+        return myInt;
     }
 }
