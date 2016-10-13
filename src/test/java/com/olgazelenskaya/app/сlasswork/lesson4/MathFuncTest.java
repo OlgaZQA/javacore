@@ -1,6 +1,6 @@
 package com.olgazelenskaya.app.Classwork.lesson4;
 
-import com.olgazelenskaya.app.classwork.lesson4.MathFunc;
+import com.olgazelenskaya.app.сlasswork.lesson4.MathFunc;
 import org.junit.Assert;
 import org.junit.Test;
 
