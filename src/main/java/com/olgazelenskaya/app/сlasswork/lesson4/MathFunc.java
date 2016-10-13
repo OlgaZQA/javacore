@@ -1,4 +1,4 @@
-package com.olgazelenskaya.app.classwork.lesson4;
+package com.olgazelenskaya.app.сlasswork.lesson4;
 
 /**
  * Created by PC on 12.10.2016.
