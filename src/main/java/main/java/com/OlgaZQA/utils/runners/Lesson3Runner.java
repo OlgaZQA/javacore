@@ -8,9 +8,9 @@ import main.java.com.OlgaZQA.utils.convertors.PrimitiveConvertor;
 public class Lesson3Runner {
     public static void main(String[] args) {
         PrimitiveConvertor convertor = new PrimitiveConvertor();
-        convertor.CharToInt('b');
+        convertor.charToInt('b');
         convertor.floatToChar(23);
-        convertor.IntToChar('d');
+        convertor.intToChar('d');
     }
 
 }

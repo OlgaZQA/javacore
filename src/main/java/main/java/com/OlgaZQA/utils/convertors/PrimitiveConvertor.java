@@ -10,12 +10,12 @@ public class PrimitiveConvertor {
         System.out.println("Input float value is " + myFloat + ". Output char value is " + myChar);
         return myChar;
     }
-    public char IntToChar (int myInt) {
+    public char intToChar (int myInt) {
         char myChar = (char) myInt;
         System.out.println ("Input int value is " + myInt + ". Output char value is " + myChar);
         return myChar;
     }
-    public int CharToInt (char myChar) {
+    public int charToInt (char myChar) {
         int myInt = (int) myChar;
         System.out.println ("Input char value is " + myChar + ". Output char value is " + myInt);
         return myInt;
