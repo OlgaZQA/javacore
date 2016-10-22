@@ -1,4 +1,4 @@
-package main.java.com.OlgaZQA.utils.convertors;
+package com.olgazelenskaya.app.utils;
 
 /**
  * Created by PC on 13.10.2016.

@@ -1,4 +1,4 @@
-package com.olgazelenskaya.app.classwork.lesson4;
+package com.olgazelenskaya.app.сlasswork.lessons.lesson4;
 
 import com.olgazelenskaya.app.сlasswork.lesson4.MathFunc;
 import org.junit.Assert;
