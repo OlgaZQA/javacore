@@ -4,14 +4,14 @@ package com.olgazelenskaya.runners.homework.lesson7;
  * Created by PC on 25.10.2016.
  */
 public class ArrayClass {
-    public static void main(String[] args) {
-        int[] a = new int[10];
-        for (int i = 0; i < a.length; i ++) {
-            a[i] = (i+1)*2;
-               System.out.println(a[i]+ " ");
-            }
-        }
-    }
+//    public static void main(String[] args) {
+//        int[] a = new int[10];
+//        for (int i = 0; i < a.length; i ++) {
+//            a[i] = (i+1)*2;
+//               System.out.println(a[i]+ " ");
+//            }
+//        }
+//    }
 //    public static void main(String[] args) {
 //        int[] a = new int[50];
 //        for (int i = 0; i < a.length; i++) {
@@ -29,21 +29,22 @@ public class ArrayClass {
 //
 //    }
 
-//        public static void main(String[] args) {
-//        int[] a = new int[15];
-//        int evenNumbers = 0;
-//
-//        for (int i = 0; i < a.length; i++) {
-//            a[i] = (int) (Math.random() * 9 + 1);
-//            System.out.print(a[i] + " ");
-//
-//            if ((a[1] % 2 == 0) && (a[i] != 0)) {
-//                evenNumbers++;
-//            }
-//        }
-//              System.out.print(evenNumbers);
-//            }
-//        }
+    public static void main(String[] args) {
+        int[] a = new int[15];
+        int evenNumbers = 0;
+
+        for (int i = 0; i < a.length; i++) {
+            a[i] = (int) (Math.random() * 9 + 1);
+            System.out.print(a[i] + " ");
+
+            if ((a[i] % 2 == 0) && (a[i] != 0)) {
+                evenNumbers++;
+            }
+        }
+        System.out.println(" ");
+        System.out.println(evenNumbers);
+    }
+}
 
 //    public static void main(String[] args) {
 //        int[] a = new int[15];
