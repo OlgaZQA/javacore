@@ -8,9 +8,9 @@ import com.olgazelenskaya.app.utils.PrimitiveConvertor;
 public class Lesson3Runner {
     public static void main(String[] args) {
         PrimitiveConvertor convertor = new PrimitiveConvertor();
-        convertor.charToInt('b');
+        convertor.charToInt('A');
         convertor.floatToChar(100);
-        convertor.intToChar('d');
+        convertor.intToChar('m');
     }
 
 }
