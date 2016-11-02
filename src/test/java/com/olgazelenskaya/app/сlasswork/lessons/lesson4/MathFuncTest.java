@@ -10,7 +10,7 @@ import org.junit.Test;
 public class MathFuncTest {
 
     @Test // JUnit framework annotation
-    public void multiplyTest(){
+    public void multiplyTest() {
         int a = 3, b = 5, expRes = 15;
         MathFunc myMathFunc = new MathFunc();
         myMathFunc.multiply(a, b);

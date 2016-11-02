@@ -6,7 +6,7 @@ package com.olgazelenskaya.app.сlasswork.lesson3;
 public class WideningCasting {
     static byte byte1 = 127;
     static short short1 = 0;
-    static int int1 =0;
+    static int int1 = 0;
     static long long1 = 0L;
     static float float1 = 0.0f;
     static double double1 = 0.0d;

@@ -1,12 +1,14 @@
 package com.olgazelenskaya.runners.homework.lesson7;
 
+import java.util.Random;
+
 /**
  * Created by PC on 25.10.2016.
  */
 public class ArrayClass {
 
-    public static void main(String[] args) {
-    //    public void taskOne() {
+    //public static void main(String[] args) {
+    public void taskOne() {
 
         int[] a = new int[10];
         for (int i = 0; i < a.length; i++) {
@@ -16,11 +18,11 @@ public class ArrayClass {
     }
 
     public void taskTwo() {
-    //    public static void main(String[] args) {
+        //    public static void main(String[] args) {
 
         int[] a = new int[50];
 
-            for (int i = 0; i < a.length; i++) {
+        for (int i = 0; i < a.length; i++) {
             a[i] = i * 2 + 1;
 
             System.out.print(a[i] + " ");
@@ -30,13 +32,15 @@ public class ArrayClass {
         for (int i = a.length - 1; i >= 0; i--) {
             System.out.print(a[i] + " ");
 
-    //      for(int i = 0; i < a.length; i++){
-    //      System.out.print(a[a.length-1-i] + " ");
+
+            //      for(int i = 0; i < a.length; i++){
+            //      System.out.print(a[a.length-1-i] + " ");
         }
-   }
+        System.out.println(" ");
+    }
 
     public void taskThree() {
-    //   public static void main(String[] args) {
+        //   public static void main(String[] args) {
 
         int[] a = new int[15];
         int evenNumbers = 0;
@@ -47,16 +51,16 @@ public class ArrayClass {
 
             if ((a[i] % 2 == 0) && (a[i] != 0)) {
                 evenNumbers++;
-                }
             }
-            System.out.println(" ");
-            System.out.println(" ");
-            System.out.println("Ответ: ");
-            System.out.println("Четных элементов: " + evenNumbers);
-            }
+        }
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println("Ответ: ");
+        System.out.println("Четных элементов: " + evenNumbers);
+    }
 
     public void taskFour() {
-   // public static void main(String[] args) {
+        // public static void main(String[] args) {
 
         int[] a = new int[15];
 
@@ -79,8 +83,8 @@ public class ArrayClass {
         }
     }
 
-    public void taskFive(){
-   // public static void main(String[] args) {
+    public void taskFive() {
+        // public static void main(String[] args) {
 
         int[][] a = new int[8][5];
 
@@ -91,8 +95,25 @@ public class ArrayClass {
             }
             System.out.println(" ");
         }
-            System.out.println(" ");
-            System.out.println("Ответ:");
-            System.out.println("Восемь строк и пять столбцов");
+        System.out.println(" ");
+        System.out.println("Ответ:");
+        System.out.println("Восемь строк и пять столбцов");
+    }
+
+   // public static void main(String[] args) {
+    public void taskSix(){
+        int[][] arr = new int[8][5];
+        int a = 10, b = 99;
+        Random rand = new Random();
+
+        for (int i = 0; i < arr.length; i++) {
+
+            for (int j = 0; j < arr[i].length; j++) {
+                arr[i][j] = (int) (a + Math.random() * (b - a + 1));
+
+            System.out.print(arr[i][j]+" ");
+            }
+            System.out.println("");
+        }
     }
 }
